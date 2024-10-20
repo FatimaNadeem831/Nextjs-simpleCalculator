@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Created By _Asma_</h1>
+    
+    <div class="calculator">
+        <input type="number" id="firstNumber" placeholder="Enter first number">
+        <input type="number" id="secondNumber" placeholder="Enter second number">
+        <select id="operator">
+            <option value="Addition">Addition</option>
+            <option value="Subtraction">Subtraction</option>
+            <option value="Multiplication">Multiplication</option>
+            <option value="Division">Division</option>
+
+        </select>
+
+        <button onclick="calculate()">Calculate</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
